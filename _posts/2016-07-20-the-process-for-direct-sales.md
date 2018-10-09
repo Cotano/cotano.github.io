@@ -20,7 +20,7 @@ Industry representative, the World Federation of Direct Selling Associations (WF
 
 ![Office](https://source.unsplash.com/random/1500x1146)
 
-According to the WFDSA, consumers benefit from direct selling because of the convenience and service it provides, including personal demonstration and explanation of products, home delivery, and generous satisfaction guarantees. In contrast to franchising, the cost for an individual to start an independent direct selling business is typically very low with little or no required inventory or other cash commitments to begin.
+**According to the WFDSA**, consumers benefit from direct selling because of the convenience and service it provides, including personal demonstration and explanation of products, home delivery, and generous satisfaction guarantees. In contrast to franchising, the cost for an individual to start an independent direct selling business is typically very low with little or no required inventory or other cash commitments to begin.
 
 Most direct selling associations around the world require their members to abide by a code of conduct towards a fair partnership both with customers and salesmen...
 
