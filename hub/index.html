@@ -1,0 +1,87 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"  content="maximum-scale=1.0,width=device-width,initial-scale=1.0,user-scalable=0">
+        <title>
+            Cotano
+        </title>
+
+        <style>
+            body
+            {
+                text-align: center;
+                padding-top: 64px;
+
+                color: #5B5B5B;
+                font-weight: bold;
+                font-family: sans-serif;
+                font-size: 16px;
+                line-height: 28px;
+            }
+
+            .body
+            {
+                display: inline-block;
+                position: relative;
+                width: 50%;
+                min-width: 300px;
+                max-width: 500px;
+            }
+
+            .button-next
+            {
+                display: inline-block;
+                position: relative;
+
+                line-height: 45px;
+                vertical-align: middle;
+
+                height: 45px;
+                width: 100%;
+                max-width: 256px;
+                border: none;
+                border-radius: 4px;
+                background-color: #86E2AA;
+
+        		margin-top: 10px;
+
+                color: #FFFFFF;
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+                cursor: pointer;
+            text-decoration: none;
+            }
+            
+            .normal-text
+            {
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+	<div class="body">
+	    <span id="subtitle">Configuration will continue in browser...</span><br/>
+	    <div class="normal-text">
+            <span id="message">By continuing you agree with </span>
+            <a id="privacy-policy-url-text" target="_blank" href="/privacy-policy.html">Privacy Policy</a>
+        </div>
+        <a id="button-continue" class="button-next" target="_blank" href="/hub/step2.html">Continue</a>
+    </div>
+    
+    <script>
+        // TODO: Hardcoded localization
+        var language = window.navigator.userLanguage || window.navigator.language;
+
+        if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
+            document.getElementById('subtitle').innerText = 'Настройка продолжится в браузере...';
+            document.getElementById('message').innerText = 'Нажимая "Продолжить", вы принимаете условия ';
+            document.getElementById('privacy-policy-url-text').innerText = 'Политики Конфиденциальности';
+            document.getElementById('privacy-policy-url-text').href = '/privacy-policy-ru.html';
+            document.getElementById('button-continue').innerText = 'Продолжить';
+        }
+    </script>
+    </body>
+</html>

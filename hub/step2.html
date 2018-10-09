@@ -1,0 +1,73 @@
+<html>
+    <head>
+	<meta charset="utf-8">
+	<meta name="viewport"  content="maximum-scale=1.0,width=device-width,initial-scale=1.0,user-scalable=0">
+        <title>
+            Cotano
+        </title>
+
+        <style>
+            body
+            {
+                text-align: center;
+                padding-top: 64px;
+
+                color: #5B5B5B;
+                font-family: sans-serif;
+                font-size: 16px;
+                font-weight: bold;
+            }
+
+	     .body
+            {
+                display: inline-block;
+                position: relative;
+                width: 50%;
+                min-width: 300px;
+                max-width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+	<div class="body">
+	    <span id="subtitle">Configuration is almost finished...</span><br/><br/><br/>
+        
+        <span id="message-part-1">Confirm Cotano open</span><br/>
+        <span id="message-part-2">to</span> 
+        <a id="link-finish" class="button-next" href="cotano://cotano.me?baseUrl=">finish configuration</a>
+	</div>
+
+	<script>
+	    var language = window.navigator.userLanguage || window.navigator.language;
+	    var defaultBaseUrl = "https://my.cotano.me";
+	    if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1)
+	    {
+		defaultBaseUrl = "https://avon.my.cotano.me";
+	    }
+
+	    var matches = document.cookie.match(/baseUrl=([^;]+)/);
+            url = matches && matches.length > 1 ? decodeURIComponent(matches[1]) : defaultBaseUrl;
+	    if (url.indexOf("http") !== 0)
+	    {
+		url = "https://" + url;
+	    }
+	    
+	    var a = document.getElementsByTagName("a")[0];
+	    a.setAttribute("href", a.getAttribute("href") + url);
+
+	    a.click();
+    </script>
+    
+    <script>
+        // TODO: Hardcoded localization
+
+
+        if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
+            document.getElementById('subtitle').innerText = 'Настройка почти завершена...';
+            document.getElementById('message-part-1').innerText = 'Подтвердите открытие Cotano';
+            document.getElementById('message-part-2').innerText = 'чтобы';
+            document.getElementById('link-finish').innerText = 'завершить настройку';
+        }
+    </script>    
+    </body>
+</html>
