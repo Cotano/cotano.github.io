@@ -2,8 +2,8 @@
 # Site
 
 title: Hydra Template
-url: "https://cotano.github.io/landing"
-baseurl: https://cotano.github.io/landing
+url: "https://cotano.github.io/landing/"
+baseurl: https://cotano.github.io/landing/
 google_analytics_key:
 google_maps_javascript_api_key:
 disqus_shortname:
@@ -85,7 +85,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
-  - hub/*
 
 # -----------
 # CloudCannon
