@@ -80,11 +80,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
-  - LICENCE
+exclude: [Gemfile, Gemfile.lock, README.md, LICENCE, hub]
 
 # -----------
 # CloudCannon
