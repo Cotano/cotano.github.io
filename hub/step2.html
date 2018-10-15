@@ -29,45 +29,41 @@
         </style>
     </head>
     <body>
-	<div class="body">
-	    <span id="subtitle">Configuration is almost finished...</span><br/><br/><br/>
-        
-        <span id="message-part-1">Confirm Cotano open</span><br/>
-        <span id="message-part-2">to</span> 
-        <a id="link-finish" class="button-next" href="cotano://cotano.me?baseUrl=">finish configuration</a>
-	</div>
+        <div class="body">
+            <span id="subtitle">Configuration is almost finished...</span><br/><br/><br/>
+            
+            <span id="message-part-1">Confirm Cotano open</span><br/>
+            <span id="message-part-2">to</span> 
+            <a id="link-finish" class="button-next" href="cotano://cotano.me?baseUrl=">finish configuration</a>
+        </div>
 
-	<script>
-	    var language = window.navigator.userLanguage || window.navigator.language;
-	    var defaultBaseUrl = "https://my.cotano.me";
-	    if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1)
-	    {
-		defaultBaseUrl = "https://avon.my.cotano.me";
-	    }
+        <script>
+            var language = window.navigator.userLanguage || window.navigator.language;
+            // TODO: Hardcoded localization
+            if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
+                document.getElementById('subtitle').innerText = 'Настройка почти завершена...';
+                document.getElementById('message-part-1').innerText = 'Подтвердите открытие Cotano';
+                document.getElementById('message-part-2').innerText = 'чтобы';
+                document.getElementById('link-finish').innerText = 'завершить настройку';
+            }
 
-	    var matches = document.cookie.match(/baseUrl=([^;]+)/);
-            url = matches && matches.length > 1 ? decodeURIComponent(matches[1]) : defaultBaseUrl;
-	    if (url.indexOf("http") !== 0)
-	    {
-		url = "https://" + url;
-	    }
-	    
-	    var a = document.getElementsByTagName("a")[0];
-	    a.setAttribute("href", a.getAttribute("href") + url);
+            var defaultBaseUrl = "https://my.cotano.me";
+            if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1)
+            {
+                defaultBaseUrl = "https://avon.my.cotano.me";
+            }
 
-	    a.click();
-    </script>
-    
-    <script>
-        // TODO: Hardcoded localization
+            var matches = document.cookie.match(/baseUrl=([^;]+)/);
+                url = matches && matches.length > 1 ? decodeURIComponent(matches[1]) : defaultBaseUrl;
+            if (url.indexOf("http") !== 0)
+            {
+                url = "https://" + url;
+            }
+            
+            var a = document.getElementsByTagName("a")[0];
+            a.setAttribute("href", a.getAttribute("href") + url);
 
-
-        if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
-            document.getElementById('subtitle').innerText = 'Настройка почти завершена...';
-            document.getElementById('message-part-1').innerText = 'Подтвердите открытие Cotano';
-            document.getElementById('message-part-2').innerText = 'чтобы';
-            document.getElementById('link-finish').innerText = 'завершить настройку';
-        }
-    </script>    
+            a.click();
+        </script>    
     </body>
 </html>
