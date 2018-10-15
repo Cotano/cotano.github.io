@@ -11,10 +11,10 @@
   new_window: false
   highlight: false
 - name: Login
-  link: /
+  link: https://my.cotano.me/signin
   new_window: true
   highlight: false
 - name: Sign Up
-  link: /
+  link: https://my.cotano.me/signin
   new_window: true
   highlight: true

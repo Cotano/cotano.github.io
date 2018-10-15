@@ -3,37 +3,39 @@
     link: /pricing/
   - name: Blog
     link: /blog/
-  - name: About
-    link: /about/
+- links:
   - name: Contact
     link: /contact/
-- links:
-  - name: Login
-    link: /
+  # - name: Login
+  #   link: https://my.cotano.me/signin
+  #   new_window: true
+  - name: Sign Up / Sign In
+    link: https://my.cotano.me/signin
     new_window: true
-  - name: Sign Up
-    link: /
-    new_window: true
-  - name: Docs
-    link: /
-    new_window: true
-  - name: Status
-    link: /
-    new_window: true
+  # - name: Docs
+  #   link: /
+  #   new_window: true
+  # - name: Status
+  #   link: /
+  #   new_window: true
 - links:
   - name: Facebook
-    link: https://facebook.com
+    link: https://facebook.com/cotano.me
     new_window: true
     social_icon: Facebook
-  - name: Twitter
-    link: https://twitter.com
-    social_icon: Twitter
-    new_window: true
+  # - name: Twitter
+  #   link: https://twitter.com
+  #   social_icon: Twitter
+  #   new_window: true
   - name: YouTube
-    link: https://youtube.com
+    link: https://www.youtube.com/channel/UCR2RqnEkeybtixAHlW_wpEQ/featured
     social_icon: YouTube
     new_window: true
-  - name: RSS
-    link: /feed.xml
-    social_icon: RSS
-    new_window: false
+  - name: Instagram
+    link: https://www.instagram.com/cotano.me
+    social_icon: Instagram
+    new_window: true
+  # - name: RSS
+  #   link: /feed.xml
+  #   social_icon: RSS
+  #   new_window: false
