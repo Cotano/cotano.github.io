@@ -1,9 +1,11 @@
 - links:
-  - name: Pricing
-    link: /pricing/
-  - name: Blog
+ - name: Home
+    link: https://my.cotano.me
+ - name: Blog
     link: /blog/
-- links:
+ - name: Pricing
+    link: /pricing/
+ - links:
   - name: Contact
     link: /contact/
   # - name: Login
