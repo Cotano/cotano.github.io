@@ -1,10 +1,10 @@
 - links:
- - name: Home
+  - name: Home
     link: https://my.cotano.me
 - links:
- - name: Blog
+  - name: Blog
     link: /blog/
- - name: Pricing
+  - name: Pricing
     link: /pricing/
 - links:
   - name: Contact
