@@ -3,4 +3,5 @@ layout: null
 sitemap: false
 ---
 User-agent: *
-Sitemap: {{ site.url }}/sitemap.xml
+Disallow:
+Sitemap: https://cotano.me/sitemap.xml
