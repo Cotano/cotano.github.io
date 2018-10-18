@@ -1,20 +1,20 @@
 #- links:
 #  - name: Home
 #    link: https://my.cotano.me
-- links:
-  - name: Blog
-    link: /blog/
-  - name: Pricing
-    link: /pricing/
-- links:
-  - name: Contact
-    link: /contact/
+#- links:
+#  - name: Blog
+#    link: /blog/
+#  - name: Pricing
+#    link: /pricing/
+#- links:
+#  - name: Contact
+#    link: /contact/
   # - name: Login
   #   link: https://my.cotano.me/signin
   #   new_window: true
-  - name: Sign Up / Sign In
-    link: https://my.cotano.me/signin
-    new_window: true
+#  - name: Sign Up / Sign In
+#    link: https://my.cotano.me/signin
+#    new_window: true
   # - name: Docs
   #   link: /
   #   new_window: true
@@ -30,10 +30,12 @@
   #   link: https://twitter.com
   #   social_icon: Twitter
   #   new_window: true
+- links:
   - name: YouTube
     link: https://www.youtube.com/channel/UCR2RqnEkeybtixAHlW_wpEQ/featured
     social_icon: YouTube
     new_window: true
+- links:
   - name: Instagram
     link: https://www.instagram.com/cotano.me
     social_icon: Instagram
