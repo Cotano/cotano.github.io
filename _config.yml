@@ -3,7 +3,7 @@
 
 title: Cotano
 url: "https://cotano.me"
-baseurl: https://cotano.me
+baseurl: /contact
 google_analytics_key: UA-101196100-1
 google_maps_javascript_api_key:
 disqus_shortname:
