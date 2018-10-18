@@ -14,11 +14,11 @@
   link: /contact/
   new_window: false
   highlight: false
-- name: Login
-  link: https://my.cotano.me/signin
-  new_window: true
-  highlight: false
-- name: Sign Up
+#- name: Login
+#  link: https://my.cotano.me/signin
+#  new_window: true
+#  highlight: false
+- name: Sign Up / Login
   link: https://my.cotano.me/signin
   new_window: true
   highlight: true
