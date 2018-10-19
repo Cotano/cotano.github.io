@@ -55,12 +55,9 @@
 	    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     	    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream)
 	    {
-		window.open(newUrl, "switch");
+		a.setAttribute("target", "_blank");
 	    }
-	    else
-	    {
-		a.click();
-	    }
+	    a.click();
 	</script>
     </body>
 </html>
