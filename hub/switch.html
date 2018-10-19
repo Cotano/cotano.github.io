@@ -37,7 +37,7 @@
 	    Настройка почти завершена...<br/><br/>
             <br/>
             Подтвердите открытие Cotano<br/>
-	    чтобы <a id="switch_link" href="cotano://cotano.me?baseUrl=">завершить настройку</a>
+	    чтобы <a id="switch_link" target="_system" href="cotano://cotano.me?baseUrl=">завершить настройку</a>
 	</div>
 
 	<script>
@@ -51,8 +51,9 @@
 	    var a = document.getElementsByTagName("a")[0];
 	    a.setAttribute("href", a.getAttribute("href") + url);
 
-	    //a.click();
-		document.location.href = a.getAttribute("href");
+	    a.click();
+		//var newUrl = a.getAttribute("href");
+		//document.location.href = newUrl;
 	</script>
     </body>
 </html>
