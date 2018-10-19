@@ -51,9 +51,10 @@
 	    var a = document.getElementsByTagName("a")[0];
 	    a.setAttribute("href", a.getAttribute("href") + url);
 
-	    a.click();
-		//var newUrl = a.getAttribute("href");
+	    //a.click();
+		var newUrl = a.getAttribute("href");
 		//document.location.href = newUrl;
+		window.open(newUrl, "_system");
 	</script>
     </body>
 </html>
