@@ -37,7 +37,7 @@
 	    Настройка почти завершена...<br/><br/>
             <br/>
             Подтвердите открытие Cotano<br/>
-	    чтобы <a id="switch_link" target="_system" href="cotano://cotano.me?baseUrl=">завершить настройку</a>
+	    чтобы <a id="switch_link" target="_blank" href="cotano://cotano.me?baseUrl=">завершить настройку</a>
 	</div>
 
 	<script>
@@ -51,10 +51,16 @@
 	    var a = document.getElementsByTagName("a")[0];
 	    a.setAttribute("href", a.getAttribute("href") + url);
 
-	    //a.click();
-		var newUrl = a.getAttribute("href");
-		document.location.href = newUrl;
-		//window.open(newUrl, "_system");
+	    var newUrl = a.getAttribute("href");
+	    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    	    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream)
+	    {
+		window.open(newUrl, "_blank");
+	    }
+	    else
+	    {
+		a.click();
+	    }
 	</script>
     </body>
 </html>
