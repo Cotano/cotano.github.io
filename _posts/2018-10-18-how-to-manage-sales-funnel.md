@@ -1,4 +1,5 @@
 ---
+permalink: /blog/
 layout: post
 date: 2018-10-18
 title: How to effectively manage your sales funnel?
