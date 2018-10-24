@@ -7,6 +7,7 @@ categories:
 # img: # Add image post (optional)
 # tags: [sales management, sales pipeline]
 author_staff_member: Alex Myskiw
+permalink: /blog/:categories/:date/:title
 ---
 
 Sales funnel management is not anything new for the sales industry, but there are few that truly do it well. For effective sales funnel management it is important to focus on the three keys Contacts, Tasks and Reminders. 
