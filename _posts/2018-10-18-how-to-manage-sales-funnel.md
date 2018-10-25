@@ -34,9 +34,9 @@ Focusing on contacts, tasks and reminders helps you start managing your sales fu
 Before the technology craze sales people used to turn to the streets, the white pages, phonebooks, and good old fashioned networking. As technology began influencing lives sales began to see a growth. Email marketing, Social media marketing, video conferencing, and CRMs changed the landscape of sales forever. CRMs were the solution to the problem of effective sales, but ultimately only bring value to the executives and board, while becoming a detriment to sales teams. 
 
 Only about 18% of sales people spend their time in their CRM, a tool designed to solve the problem of sales, because the manual data entry and it’s complexity essentially wastes their time. 
-
+<div>
 <img src="images/Blog_Post_Current_CRM.png.png" alt="Why CRMs hurt sales?" />
-
+</div>
 Although CRMs are fundamental to a companies sales initiatives, there is no doubt that there is something missing within the typical sales persons arsenal of technologies. Sales needs to focus on three fundamentals of sales to bring higher revenues Contacts, Tasks, and Notifications. With the introduction of all the new methods and channels of sales available thanks to technology it is amazing to see just how slowly the CRM market has developed, but still forgot to hold on to what made the sales people of the past successful. 
 
 Joe Girard for example held the World Record for most cars sold in a year and he did it all by simply remembering his leads birthday. 
