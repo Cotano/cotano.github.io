@@ -33,13 +33,13 @@ Focusing on contacts, tasks and reminders is a great start to managing your sale
 
 Before the technology craze salespeople used to turn to the streets, the white pages, phonebooks, and good old fashioned networking. As technology began influencing lives, sales began to see a growth. Email marketing, Social media marketing, video conferencing, and CRMs changed the landscape of sales forever. CRMs were the solution to the problem of effective sales, but ultimately only bring value to the executives and board, while becoming a detriment to sales teams. 
 
-Only about [18% of salespeople spend their time in their CRM](https://www.forbes.com/sites/kenkrogue/2018/01/10/why-sales-reps-spend-less-than-36-of-time-selling-and-less-than-18-in-crm/#2fc7468b998f), a tool designed to solve the problem of sales, because the manual data entry and it’s complexity essentially wastes their time. 
+Only about [18% of salespeople spend their time in the CRM](https://www.forbes.com/sites/kenkrogue/2018/01/10/why-sales-reps-spend-less-than-36-of-time-selling-and-less-than-18-in-crm/#2fc7468b998f), a tool designed to solve the problem of sales, because the manual data entry and it’s complexity essentially wastes their time. 
 
 ![Why CRMs hurt sales?](/images/Blog_Post_Current_CRM.png)
 
 ## Why CRMs actually hurt your sales?
 
-Although CRMs are fundamental to a companies sales initiatives, there is no doubt that there is something missing within the typical sales persons arsenal of technologies. Sales needs to focus on three fundamentals of sales to bring higher revenues Contacts, Tasks, and Notifications. With the introduction of all the new methods and channels of sales available thanks to technology it is amazing to see just how slowly the CRM market has developed, but still forgot to hold on to what made the sales people of the past successful. 
+Although CRMs are fundamental to a companies sales initiatives, there is no doubt that there is something missing within the typical salesperson's arsenal of technologies. Sales needs to focus on Contacts, Tasks, and Reminders to bring higher revenues. With the multi-channel method of sales available thanks to technology it is amazing to see just how slowly the CRM market has developed, but still forgot to hold on to what made the salespeople of the past successful. 
 
 Joe Girard for example held the World Record for most cars sold in a year and he did it all by simply remembering his leads birthday. 
 David Ogilvy, known as the father of advertising, always mentions personalization and trust as the key for successful direct sales. 
