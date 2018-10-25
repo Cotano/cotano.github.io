@@ -8,7 +8,7 @@ categories:
 # tags: [sales management, sales pipeline]
 author_staff_member: Alex Myskiw
 ---
-<img src="images/Sales_Funnel_Logo.png" alt="Sales Funnel Management">
+<img src="images/Sales_Funnel_Logo.png" alt="Sales Funnel Management" />
 
 Sales funnel management is not anything new for the sales industry, but there are few that truly do it well. For effective sales funnel management it is important to focus on the three keys Contacts, Tasks and Reminders. 
 
@@ -34,7 +34,7 @@ Before the technology craze sales people used to turn to the streets, the white 
 
 Only about 18% of sales people spend their time in their CRM, a tool designed to solve the problem of sales, because the manual data entry and it’s complexity essentially wastes their time. 
 
-<img src="images/Blog_Post_Current_CRM.png.png" alt="Why CRMs hurt sales?">
+<img src="images/Blog_Post_Current_CRM.png.png" alt="Why CRMs hurt sales?" />
 
 Although CRMs are fundamental to a companies sales initiatives, there is no doubt that there is something missing within the typical sales persons arsenal of technologies. Sales needs to focus on three fundamentals of sales to bring higher revenues Contacts, Tasks, and Notifications. With the introduction of all the new methods and channels of sales available thanks to technology it is amazing to see just how slowly the CRM market has developed, but still forgot to hold on to what made the sales people of the past successful. 
 
