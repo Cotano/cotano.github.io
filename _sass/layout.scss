@@ -175,3 +175,7 @@ blockquote:before {
 	}
 
 }
+
+.en:lang(en), .ru:lang(ru) {
+    font-weight: bold;
+}

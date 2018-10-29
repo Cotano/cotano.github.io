@@ -1,6 +1,6 @@
 <!doctype html>
 
-<html lang="en">
+<html lang="{{ page.lang }}">
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +23,13 @@
 	<body>
 		<header>
 			<div class="container">
-				<div class="company-name"><a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/Cotano_logo_.png" alt="Cotano Logo" width="380" height="132" /></a></div>
+				<div class="company-name">
+					{% if page.lang == 'en' %}
+						<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/Cotano_logo_.png" alt="Cotano Logo" width="38" height="38" /></a>
+					{% else %}
+						<a href="{{ site.baseurl }}/{{ page.lang }}"><img src="{{ site.baseurl }}/images/Cotano_logo_.png" alt="Cotano Logo" width="38" height="38" /></a>
+					{% endif %}
+				</div>
 				{% include navigation.html %}
 			</div>
 		</header>
@@ -43,7 +49,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Cotano. • <a href="/hub/privacy-policy.html">Privacy Policy</a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Cotano • <a href="{{ site.data.localization.t[page.lang].privacyPolicy.url }}">{{ site.data.localization.t[page.lang].privacyPolicy.name }}</a></p>
 			</div>
 		</footer>
 		<script>

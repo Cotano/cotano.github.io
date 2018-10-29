@@ -1,5 +1,11 @@
 t:
   en:
-    Read More:        "Read More"
+    readMore:        "Read More"
+    privacyPolicy:
+      name:           "Privacy Policy"
+      url:            "/hub/privacy-policy.html"
   ru:
-    Read More:        "Открой Еще"
+    readMore:         "Открой Еще"
+    privacyPolicy:
+      name:           "Политика Конфиденциальности"
+      url:            "/hub/privacy-policy-ru.html"
