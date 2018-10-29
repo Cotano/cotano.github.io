@@ -1,11 +1,5 @@
 t:
   en:
-    Blog:             "Blog"
-    Pricing:          "Pricing"
-    Contact:          "Contact"
-    Sign Up / Login:  "Sign Up / Login"
+    Read More:        "Read More"
   ru:
-    Blog:             "Блог"
-    Pricing:          "Цены"
-    Contact:          "Контакты"
-    Sign Up / Login:  "Войти"
+    Read More:        "Открой Еще"

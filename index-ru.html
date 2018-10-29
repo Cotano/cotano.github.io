@@ -4,8 +4,18 @@ description: Track and optimize your sales funnel & leads in real-time.
 
 ## Localization
 ref: index
-lang: en
+lang: ru
 ---
+
+<ul>
+	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+	{% for page in pages %}
+	<li>
+		<a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+	</li>
+	{% endfor %}
+</ul>
+
 	
 <section class="hero">
 	<div class="text-container">
@@ -36,7 +46,7 @@ lang: en
 		</div>
 	</section>
 
-	<section>	
+	<section>
 		<div class="container flex">
 			<div class="text editable">
 				<h2>Work in a <strong>sales team</strong>?</h2>

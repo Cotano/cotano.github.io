@@ -1,24 +1,34 @@
-#- name: Home
-#  link: https://my.cotano.me
-#  new_window: false
-#  highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
-- name: Pricing
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
-#- name: Login
-#  link: https://my.cotano.me/signin
-#  new_window: true
-#  highlight: false
-- name: Sign Up / Login
-  link: https://my.cotano.me/signin
-  new_window: true
-  highlight: true
+en:
+  - name: Blog
+    link: /blog/
+    new_window: false
+    highlight: false
+  - name: Pricing
+    link: /pricing/
+    new_window: false
+    highlight: false
+  - name: Contact
+    link: /contact/
+    new_window: false
+    highlight: false
+  - name: Sign Up / Login
+    link: https://my.cotano.me/signin
+    new_window: true
+    highlight: true
+ru:
+  - name: Блог
+    link: /блог/
+    new_window: false
+    highlight: false
+  - name: Цена
+    link: /цена/
+    new_window: false
+    highlight: false
+  - name: Контакты
+    link: /контакты/
+    new_window: false
+    highlight: false
+  - name: Регистрация / Войти
+    link: https://my.cotano.me/signin
+    new_window: true
+    highlight: true

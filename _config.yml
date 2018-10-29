@@ -29,9 +29,9 @@ collections:
   staff_members:
     _hide_content: true
 
-paginate: 10
-paginate_path: "/blog/:num/"
-permalink: pretty
+# paginate: 10
+# paginate_path: "/blog/:num/"
+# permalink: pretty
 
 defaults:
   -
@@ -78,7 +78,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-paginate
 
 include:
   - .well-known

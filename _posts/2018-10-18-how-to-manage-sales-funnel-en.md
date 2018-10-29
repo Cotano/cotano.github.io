@@ -9,9 +9,9 @@ categories:
 author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
-## i18n
-lang: en
+## Localization
 ref: posts-2018-10-18-how-to-manage-sales-funnel
+lang: en
 ---
 ![Sales Funnel Management](/images/Sales_Funnel_Logo.png)
 
