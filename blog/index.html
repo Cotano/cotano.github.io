@@ -1,11 +1,13 @@
 ---
 title: Blog
 description: Keep up with the latest news.
+lang: en
 ---
 
 <div class="text-container">
+	{% assign localizedPosts=paginator.posts | where:"lang", page.lang %}
 	<ul class="blog-posts">
-		{% include list-posts.html posts=paginator.posts %}
+		{% include list-posts.html posts=localizedPosts %}
 	</ul>
 
 	{% if paginator.total_pages > 1 %}
