@@ -4,11 +4,11 @@ en:
     new_window: false
     highlight: false
   - name: Pricing
-    link: /pricing/
+    link: /pricing.html
     new_window: false
     highlight: false
   - name: Contact
-    link: /contact/
+    link: /contact.html
     new_window: false
     highlight: false
   - name: Sign Up / Login
@@ -21,11 +21,11 @@ ru:
     new_window: false
     highlight: false
   - name: Цена
-    link: /цена/
+    link: /цена.html
     new_window: false
     highlight: false
   - name: Контакты
-    link: /контакты/
+    link: /контакты.html
     new_window: false
     highlight: false
   - name: Регистрация / Войти
