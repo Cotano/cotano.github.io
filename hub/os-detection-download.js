@@ -17,7 +17,7 @@ function isIos()
     
 function getCurrentOsLink(desktopOrFallbackLinkUrl) {
     if (isAndroidOS()) {
-      return = "https://play.google.com/store/apps/details?id=com.cotano.cotano";
+      return "https://play.google.com/store/apps/details?id=com.cotano.cotano";
     } else if (isIos()) {
       return "https://itunes.apple.com/us/app/cotano/id1250187572?ls=1&mt=8";
     } else {
