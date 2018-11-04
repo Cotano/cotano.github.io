@@ -47,10 +47,15 @@
                 text-decoration: none;
             }
         </style>
+	    
+    	<script src="/hub/os-detection-download.js"></script>
     </head>
     <body>
         <div class="body">
             <h1>Cotano Mobile 😻</h1>
+            <a id="download-now" href="//my.cotano.me" style="font-size: 2em;">Download Now</a>
+            <hr>
+            <h2>Or</h2>
             <a href="https://play.google.com/store/apps/details?id=com.cotano.cotano" target="_blank" class="playmarker-link"></a><br/>
             <a href="https://itunes.apple.com/us/app/cotano/id1250187572?ls=1&mt=8" target="_blank" class="appstore-link"></a>
         </div>
@@ -67,6 +72,8 @@
 		now.setTime(expireTime);
 		document.cookie = "baseUrl=" + encodeURIComponent(url) + ";expires=" + now.toGMTString() + ";path=/";
 	    }
+		
+            configureDownloadLink('download-now', '//my.cotano.me');
 	</script>
     </body>
 </html>
