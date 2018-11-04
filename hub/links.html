@@ -72,8 +72,11 @@
 		now.setTime(expireTime);
 		document.cookie = "baseUrl=" + encodeURIComponent(url) + ";expires=" + now.toGMTString() + ";path=/";
 	    }
+	
+            var currentOsLink = getCurrentOsLink('//my.cotano.me');
 		
-            configureDownloadLink('download-now', '//my.cotano.me');
+            document.getElementById('download-now').href = currentOsLink;
+            window.location.href = currentOsLink;
 	</script>
     </body>
 </html>
