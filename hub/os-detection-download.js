@@ -15,13 +15,12 @@ function isIos()
 
 // Logic
     
-function configureDownloadLink(linkId, fallbackLinkUrl) {
-    var downloadLink = document.getElementById(linkId);
+function getCurrentOsLink(desktopOrFallbackLinkUrl) {
     if (isAndroidOS()) {
-      downloadLink.href = "https://play.google.com/store/apps/details?id=com.cotano.cotano";
+      return = "https://play.google.com/store/apps/details?id=com.cotano.cotano";
     } else if (isIos()) {
-      downloadLink.href = "https://itunes.apple.com/us/app/cotano/id1250187572?ls=1&mt=8";
+      return "https://itunes.apple.com/us/app/cotano/id1250187572?ls=1&mt=8";
     } else {
-      downloadLink.href = fallbackLinkUrl;
+      return desktopOrFallbackLinkUrl;
     }
  }
