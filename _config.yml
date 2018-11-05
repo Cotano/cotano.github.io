@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: Cotano
+title: Cotano - Sales Engagement Platform
 url: "https://cotano.me"
 baseurl: 
 google_analytics_key: UA-101196100-1
@@ -10,7 +10,7 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /Cotano Logo Transparent.jpg
-description: Increase sales for 10%
+description: Powerful sales management software for automating your sales process and closing more deals.
 author:
   name:
   email:
