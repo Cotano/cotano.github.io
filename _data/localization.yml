@@ -5,7 +5,7 @@ t:
       name:           "Privacy Policy"
       url:            "/hub/privacy-policy.html"
   ru:
-    readMore:         "Открой Еще"
+    readMore:         "Читать дальше"
     privacyPolicy:
       name:           "Политика Конфиденциальности"
       url:            "/hub/privacy-policy-ru.html"
