@@ -1,6 +1,6 @@
 ---
 date: 2018-11-07
-title: Как повысить продажи в большой MLM компании - история успеха Cotano
+title: Как повысить продажи (до 20%) в большой MLM компании - история успеха Cotano
 categories:
 # description: Sales funnel management # Add post description (optional)
 # img: # Add image post (optional)
