@@ -2,7 +2,6 @@
 date: 2018-10-18
 title: How to effectively manage your sales funnel?
 categories:
-  - sales
 # description: Sales funnel management # Add post description (optional)
 # img: # Add image post (optional)
 # tags: [sales management, sales pipeline]
