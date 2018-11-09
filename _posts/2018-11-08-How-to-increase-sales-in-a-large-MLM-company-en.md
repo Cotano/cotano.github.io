@@ -1,6 +1,6 @@
 ---
 date: 2018-11-08
-title: Cotano Success Story - How to increase sales for a large Multilevel Marketing company?
+title: Cotano Success Story - How to increase sales (up to 20%) for a large Multilevel Marketing company?
 categories:
 # description: Sales funnel management # Add post description (optional)
 # img: # Add image post (optional)
