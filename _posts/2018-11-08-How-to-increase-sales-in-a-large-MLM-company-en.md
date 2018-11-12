@@ -46,12 +46,12 @@ regional sales managers lacked integrated tools for managing sales teams.
 
 It is important to note that introducing Cotano was complicated because the salespeople of MLM company were not actually employees, but rather independent entrepenuaers and could not be forced to use our application. Luckily, in our case they began using Cotano and our active users began increasing every single week. We brought value to the salespeople hence they loved using it!
 
-As a result of a systematic acquisition of feedback and the introduction of Cotano into the workflow, we created a real “painkiller” for users. We used the Kanban methodology, Smart push-notifications, best follow-up practices and the ability to easily import leads, a 20% increase in sales was observed during the test period (6 campaigns from 9 to 14 from June to November 2018). Cotano actually increased the salespeople’s activity in the campaigns, each of which lasted 21 days (Fig. 1).
+As a result of a systematic acquisition of feedback and the introduction of Cotano into the workflow, we created a real “painkiller” for users. We used the Kanban methodology, Smart push-notifications, best follow-up practices and the ability to easily import leads, a 20% increase in sales was observed during the test period (6 campaigns from 9 to 14 from June to November 2018). This was due to the organic growth in the activity of representatives in campaigns, each of which lasted 21 days. (Fig. 1).
 ![Chart MLM activity vs Cotano activity](/images/Blog_Post_Chart1-en.png)
-Fig. 1. Comparison of activity in the application and % of the activity of representatives in the company.
+Fig. 1. Comparison of activity in the application and % of the activity of representatives in campaigns.
 
 ## New opportunities
-We identified a high correlation coefficient (0.97), and received numerous testimonials from users who really fell in love with Cotano. They testified to the close relationship between their effectiveness during the campaigns and usage of Cotano.
+We identified a high correlation coefficient (0.97), and received numerous testimonials from users (NPS did not fall below 90%) who really fell in love with Cotano. They testified to the close relationship between their effectiveness during the campaigns and usage of Cotano.
 
 Using our application, they were able to:
 
