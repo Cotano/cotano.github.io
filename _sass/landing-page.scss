@@ -47,7 +47,7 @@
 	.flex {
 		@include flexbox;
 		align-items: center;
-		flex-direction: row;
+		flex-direction: column;
 
 		.text, .image {
 			-webkit-flex: 1;
