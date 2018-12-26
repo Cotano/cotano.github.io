@@ -1,6 +1,6 @@
 ---
 date: 2018-11-20
-title: Умные напоминания в Cotano – это рост количества заказов
+title: Умные напоминания в Cotano – это увеличение продаж в MLM
 categories:
   
 # description: Sales funnel management # Add post description (optional)
