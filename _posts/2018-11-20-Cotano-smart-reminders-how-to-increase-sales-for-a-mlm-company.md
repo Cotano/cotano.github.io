@@ -1,6 +1,6 @@
 ---
 date: 2018-11-20
-title: Cotano’s Smart Reminders - How they increased sales for a MLM company?
+title: Cotano’s Smart Reminders - How to increase sales for a MLM company?
 categories:
   
 # description: Sales funnel management # Add post description (optional)
