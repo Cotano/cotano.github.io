@@ -68,6 +68,11 @@ defaults:
       path: "contact.html"
     values:
       full_width: true
+  -
+    scope:
+      type: redirects
+    values:
+      layout: redirect
 
 jekyll-archives:
   enabled:
