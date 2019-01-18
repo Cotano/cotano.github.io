@@ -12,8 +12,6 @@ excerpt_separator: <!--more-->
 ## Localization
 ref: 
 lang: en
-permalink: /_posts/2018-11-20-Smart-reminders-in-Cotano-en.md
-redirect_to: "https://cotano.me/2018/11/20/How-to-increase-sales-for-a-MLM-company.html"
 ---
 Today, the concept of "follow-up" is firmly rooted in modern sales practices. Every successful sales manager understands the importance of this stage for effective working through their sales funnel. Without high-quality "follow-up" it is extremely difficult to close the deal. Today’s “dog eat dog” sales environment, where competitors are actively nipping at your heels, makes selling a product a challenge, especially if it’s not the market leader. How a Mobile sales team boosts follow-up results, and increases sales?
 <!--more-->
