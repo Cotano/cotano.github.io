@@ -65,6 +65,11 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "privacy-policy.html"
+    values:
+      full_width: true
+-
+    scope:
       path: "contact.html"
     values:
       full_width: true
