@@ -63,11 +63,6 @@ defaults:
       path: "index.html"
     values:
       layout: "default"
-  -
-    scope:
-      path: "privacy-policy.html"
-    values:
-      full_width: true
 -
     scope:
       path: "contact.html"
