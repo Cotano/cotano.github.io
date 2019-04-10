@@ -70,7 +70,16 @@
   			hitType: 'event',
   			eventCategory: 'Init',
   			eventAction: 'received-base-url',
-  			eventLabel: 'Received base url'
+  			eventLabel: url
+		});
+	    }
+	    else
+	    {
+		ga('send', {
+  			hitType: 'event',
+  			eventCategory: 'Init',
+  			eventAction: 'default-base-url',
+  			eventLabel: defaultBaseUrl
 		});
 	    }
 	    
