@@ -66,20 +66,18 @@
 	    if (matches && matches.length > 1)
 	    {
 		url = decodeURIComponent(matches[1]);
-		ga('send', {
-  			hitType: 'event',
-  			eventCategory: 'Init',
-  			eventAction: 'received-base-url',
-  			eventLabel: url
+		gtag('event', 'received-base-url', {
+  			'event_category': 'Init',
+  			'event_label': url,
+  			'value': ''
 		});
 	    }
 	    else
 	    {
-		ga('send', {
-  			hitType: 'event',
-  			eventCategory: 'Init',
-  			eventAction: 'default-base-url',
-  			eventLabel: defaultBaseUrl
+		gtag('event', 'default-base-url', {
+  			'event_category': 'Init',
+  			'event_label': defaultBaseUrl,
+  			'value': ''
 		});
 	    }
 	    
