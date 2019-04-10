@@ -5,7 +5,15 @@
         <title>
             Cotano
         </title>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-101196100-3"></script>
+	<script>
+  		window.dataLayer = window.dataLayer || [];
+  		function gtag(){dataLayer.push(arguments);}
+  		gtag('js', new Date());
 
+  		gtag('config', 'UA-101196100-3');
+	</script>
         <style>
             body
             {
@@ -54,7 +62,18 @@
             }
 
             var matches = document.cookie.match(/baseUrl=([^;]+)/);
-                url = matches && matches.length > 1 ? decodeURIComponent(matches[1]) : defaultBaseUrl;
+            var url = defaultBaseUrl;
+	    if (matches && matches.length > 1)
+	    {
+		url = decodeURIComponent(matches[1]);
+		ga('send', {
+  			hitType: 'event',
+  			eventCategory: 'Init',
+  			eventAction: 'received-base-url',
+  			eventLabel: 'Received base url'
+		});
+	    }
+	    
             if (url.indexOf("http") !== 0)
             {
                 url = "https://" + url;
