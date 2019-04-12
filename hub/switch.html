@@ -31,7 +31,9 @@
     <body>
 	<script>
 	    // migration
-	    if (window.innerWidth > 576) document.location.href = "https://avon.my.cotano.me";
+	    var bu = document.location.href.split("baseUrl=")[1];
+	    if (!bu) bu = "my.cotano.me";
+	    if (window.innerWidth > 576) document.location.href = bu;
 	</script>
 	<div class="body">
 	    Настройка почти завершена...<br/><br/>
