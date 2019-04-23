@@ -64,8 +64,11 @@
 	    var matches = document.location.href.match(/baseUrl=([^;]+)/);
 	    url = matches && matches.length > 1 ? decodeURIComponent(matches[1]) : null;
 
+	    var desktopRedirect = "https://my.cotano.me";
 	    if (url)
 	    {
+		desktopRedirect = url;
+		    
 		var now = new Date();
 		var time = now.getTime();
 		var expireTime = time + 1000 * 3600 * 10;
@@ -73,7 +76,7 @@
 		document.cookie = "baseUrl=" + encodeURIComponent(url) + ";expires=" + now.toGMTString() + ";path=/";
 	    }
 	
-            var currentOsLink = getCurrentOsLink('//my.cotano.me');
+            var currentOsLink = (window.innerWidth > 576) ? desktopRedirect : getCurrentOsLink('//my.cotano.me');
 		
             document.getElementById('download-now').href = currentOsLink;
             window.location.href = currentOsLink;
