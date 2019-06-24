@@ -74,7 +74,7 @@
 	    <div class="normal-text">
             <span id="message">By continuing you agree with </span>
             <a id="privacy-policy-url-text" target="_blank" href="privacy-policy.html">Privacy Policy</a>
-	    <span id="message">and </span>
+	    <span id="message-and">and </span>
             <a id="terms-of-services-url-text" target="_blank" href="terms-of-services.html">Terms of Services</a>
         </div>
         <a id="button-continue" class="button-next" target="_blank" href="step2.html">Continue</a>
@@ -87,6 +87,7 @@
         if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
             document.getElementById('subtitle').innerText = 'Настройка продолжится в браузере...';
             document.getElementById('message').innerText = 'Нажимая "Продолжить", вы принимаете условия ';
+            document.getElementById('message-and').innerText = 'и ';
             document.getElementById('privacy-policy-url-text').innerText = 'Политики Конфиденциальности';
             document.getElementById('privacy-policy-url-text').href = 'privacy-policy-ru.html';
 	    document.getElementById('terms-of-services-url-text').innerText = 'Условия использования';
