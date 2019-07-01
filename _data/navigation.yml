@@ -1,5 +1,5 @@
 en:
-  - name: Blog
+  - name: Blog1
     link: /blog/
     new_window: false
     highlight: false
@@ -16,7 +16,7 @@ en:
     new_window: true
     highlight: true
 ru:
-  - name: Блог
+  - name: Блог1
     link: /блог/
     new_window: false
     highlight: false
