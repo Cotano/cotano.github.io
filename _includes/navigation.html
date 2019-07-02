@@ -1,18 +1,9 @@
 <nav>
-	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
-	{% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-	{% for page in pages %}
-		<a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
-	{% endfor %}
-	{% for link in site.data.navigation[page.lang] %}
-		{% assign class = "" %}
-		{% if link.highlight %}
-			{% assign class = class | append: " highlight" %}
-		{% endif %}
-
-		{% if link.link == page.url %}
-			{% assign class = class | append: " active" %}
-		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
-	{% endfor %}
+	<a class="nav-toggle" id="open-nav" href="#">?</a>
+	<a href="https://cotano.me/" class="en">en</a>
+	<a href="https://cotano.me/ru.html" class="ru">ru</a>
+	<a href="/blog/" class="">Blog</a>
+	<a href="/pricing.html" class="">Pricing</a>
+	<a href="/contact.html" class="">Contact</a>
+	<a href="https://my.cotano.me/signin" class=" highlight" target="_blank">Sign Up / Login</a>
 </nav>
