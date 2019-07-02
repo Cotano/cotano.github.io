@@ -1,4 +1,11 @@
 <nav>
+	
+	<a class="nav-toggle" id="open-nav" href="#">&#9776;</a>
+	
+	<a href="{{ page.url }}" class="{{ page.lang }}">{{ page.lang }}</a>
+	
+        <a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+	
 	<a class="nav-toggle" id="open-nav" href="#">?</a>
 	<a href="https://cotano.me/" class="en">en</a>
 	<a href="https://cotano.me/ru.html" class="ru">ru</a>
