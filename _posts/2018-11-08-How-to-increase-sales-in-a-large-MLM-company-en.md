@@ -9,7 +9,7 @@ author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
 ## Localization
-ref: 
+ref: success
 lang: en
 ---
 Cotano was created as a simple, intuitive mobile sales application that allows salespeople to effectively develop relationships with their customers without a disciplined routine. We began by investigating the scope of sales and focused specifically on direct sales, in particular, Multilevel Marketing (MLM) companies. After successfully negotiating with one of the largest MLM companies, we were able to launch a pilot in several geographical regions and began testing the effectiveness of our application.
