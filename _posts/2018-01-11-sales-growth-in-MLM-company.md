@@ -13,7 +13,7 @@ excerpt_separator: <!--more-->
 ref: growth
 lang: en
 ---
-Cotano's cooperation with one of the world's largest MLM giants began in the summer of 2018! In September, Cotano launched as the main sales application with an official pilot project, in several territories. The project was designed for a 2 month period and its main goal was to ensure sales growth. According to the results, the company's analysts recorded a significant increase in revenue in the areas allocated for the project, Cotano was recognized by the company as the reason for such a result.
+Cotano's cooperation with one of the world's largest MLM giants began in the summer of 2018. In September, Cotano launched as the main sales application with an official pilot project, in several territories. The project was designed for a 2 month period and its main goal was to ensure sales growth. According to the results, the company's analysts recorded a significant increase in revenue in the areas allocated for the project, Cotano was recognized by the company as the reason for such a result.
 <!--more-->
 ![Cotano-effect](/images/Blog_Post_Cotano-effect-en.jpg)
 
