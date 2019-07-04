@@ -9,7 +9,7 @@ author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
 ## Localization
-ref: funnel
+ref: sales-funnel-management
 lang: en
 ---
 ![Sales Funnel Management](/images/Sales_Funnel_Logo.png)
