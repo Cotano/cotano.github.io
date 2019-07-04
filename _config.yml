@@ -1,8 +1,6 @@
 # ----
 # Site
-
 permalink: pretty
-
 title: Cotano
 url: "https://cotano.me"
 baseurl: 
