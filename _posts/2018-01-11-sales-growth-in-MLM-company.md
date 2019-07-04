@@ -2,6 +2,8 @@
 date: 2019-01-11
 title: The Cotano-effect - 4% sales growth in MLM company
 categories:
+permalink: /2018-01-11-sales-growth-in-MLM-company
+redirect_to: 'https://cotano.me/2019/01/11/sales-growth-in-MLM-company'
   
 # description: Sales funnel management # Add post description (optional)
 # img: # Add image post (optional)
