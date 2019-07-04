@@ -10,7 +10,7 @@ author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
 ## Localization
-ref: reminders
+ref: smart-reminders
 lang: en
 redirect_from: "https://cotano.me/2018/11/20/Smart-reminders-in-Cotano-en.html"
 ---
