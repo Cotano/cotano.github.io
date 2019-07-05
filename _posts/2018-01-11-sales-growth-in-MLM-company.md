@@ -9,6 +9,9 @@ categories:
 author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
+redirect_from:
+  - /2019/01/11/sales-growth-in-MLM-company.html
+
 ## Localization
 ref: sales-growth-in-MLM-company
 lang: en
