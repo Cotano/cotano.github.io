@@ -9,6 +9,9 @@ categories:
 author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
+redirect_from:
+  - /2018/11/20/Smart-reminders-in-Cotano-ru.html
+
 ## Localization
 ref: smart-reminders
 lang: ru
