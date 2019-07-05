@@ -8,6 +8,9 @@ categories:
 author_staff_member: Alex Myskiw
 excerpt_separator: <!--more-->
 
+redirect_from:
+  - /2018/11/07/How-to-increase-sales-in-a-large-MLM-company-ru.html
+
 ## Localization
 ref: success
 lang: ru
