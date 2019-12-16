@@ -66,8 +66,10 @@
                 pointer-events: none;
                 background-repeat: no-repeat;
                 background-position: center center;
-                font-size: 0px;
-                background-image: url("https://my.cotano.me/img/loading.gif");
+                background-color: rgb(200,200,200);
+                text-shadow: 0px 0px 3px rgb(100,100,100);
+                color: #ffffff;
+                opacity: 0.6;
                 border: solid 1px rgb(180,180,180);
 	    }
             
@@ -94,6 +96,7 @@
     <script>
         // TODO: Hardcoded localization
         var language = window.navigator.userLanguage || window.navigator.language;
+	var loadingText = "Loading...";
 
         if (language.indexOf('ru') !== -1 || language.indexOf('ua') !== -1) {
             document.getElementById('subtitle').innerText = 'Настройка продолжится в браузере...';
@@ -104,11 +107,14 @@
 	    document.getElementById('terms-of-services-url-text').innerText = 'Условия использования';
             document.getElementById('terms-of-services-url-text').href = 'terms-of-services-ru.html';
             document.getElementById('button-continue').innerText = 'Продолжить';
+		
+	    loadingText = "Загрузка...";
         }
 	    
 	document.getElementById("button-continue").onclick = function(e)
 	{
 		e.target.classList.add("disabled");
+		e.target.innerText = loadingText;
 	};
     </script>
     </body>
