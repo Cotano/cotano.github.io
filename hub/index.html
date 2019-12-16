@@ -59,6 +59,13 @@
                 cursor: pointer;
             text-decoration: none;
             }
+		
+	    .button-next:disabled
+	    {
+		    background-color: rgb(180,180,180);
+		    opacity: 0.6;
+		    pointer-events: none;
+	    }
             
             .normal-text
             {
@@ -94,6 +101,11 @@
             document.getElementById('terms-of-services-url-text').href = 'terms-of-services-ru.html';
             document.getElementById('button-continue').innerText = 'Продолжить';
         }
+	    
+	document.getElementById("button-continue").onclick = function(e)
+	{
+		e.target.disabled = true;
+	};
     </script>
     </body>
 </html>
